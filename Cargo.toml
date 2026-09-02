@@ -25,7 +25,11 @@ futures-util = { version = "0.3.16", default-features = false, optional = true }
 http = "1.0"
 http-body = "1.0.0"
 httparse = { version = "1", optional = true }
-hyper = "1.9.0"
+hyper = { git = "https://github.com/mgr9525/hyper.git", rev = "808df5993c9f6b15a5f2f0dacd9a8afdf051bd1c", features = [
+    "full",
+] }
+# hyper = { path = "../hyper", features = ["full"] }
+# hyper = "1.9.0"
 ipnet = { version = "2.9", optional = true }
 libc = { version = "0.2", optional = true }
 percent-encoding = { version = "2.3", optional = true }
