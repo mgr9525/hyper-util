@@ -37,7 +37,11 @@ tower-layer = { version = "0.3", optional = true }
 tower-service = { version = "0.3", optional = true }
 
 [dev-dependencies]
-hyper = { version = "1.4.0", features = ["full"] }
+hyper = { git = "https://github.com/mgr9525/hyper.git", rev = "808df5993c9f6b15a5f2f0dacd9a8afdf051bd1c", features = [
+    "full",
+] }
+# hyper = { path = "../hyper", features = ["full"] }
+# hyper = { version = "1.4.0", features = ["full"] }
 bytes = "1"
 futures-util = { version = "0.3.16", default-features = false, features = ["alloc"] }
 http-body-util = "0.1.0"
