@@ -25,7 +25,7 @@ futures-util = { version = "0.3.16", default-features = false, optional = true }
 http = "1.0"
 http-body = "1.0.0"
 httparse = { version = "1", optional = true }
-hyper = { git = "https://github.com/mgr9525/hyper.git", rev = "808df5993c9f6b15a5f2f0dacd9a8afdf051bd1c", features = [
+hyper = { git = "https://github.com/mgr9525/hyper.git", rev = "e81a7bb360b731282690d605198d93c5e58867bf", features = [
     "full",
 ] }
 # hyper = { path = "../hyper", features = ["full"] }
@@ -41,7 +41,7 @@ tower-layer = { version = "0.3", optional = true }
 tower-service = { version = "0.3", optional = true }
 
 [dev-dependencies]
-hyper = { git = "https://github.com/mgr9525/hyper.git", rev = "808df5993c9f6b15a5f2f0dacd9a8afdf051bd1c", features = [
+hyper = { git = "https://github.com/mgr9525/hyper.git", rev = "e81a7bb360b731282690d605198d93c5e58867bf", features = [
     "full",
 ] }
 # hyper = { path = "../hyper", features = ["full"] }
